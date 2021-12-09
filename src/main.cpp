@@ -7,10 +7,10 @@
 
 */
 
-#define LED_CLK 3
-#define LED_DATA 4
+#define LED_CLK 4
+#define LED_DATA 3
 #define BTN 0
-#define NUM_LEDS 10
+#define NUM_LEDS 9
 
 #define DEBOUNCE_THRESHOLD 2
 
