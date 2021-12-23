@@ -23,7 +23,7 @@
 #define MODE_RAINBOW_CYCLE 6
 #define MODE_OFF 7
 
-Adafruit_WS2801 leds = Adafruit_WS2801(10, LED_DATA, LED_CLK);
+Adafruit_WS2801 leds = Adafruit_WS2801(NUM_LEDS, LED_DATA, LED_CLK);
 uint8_t mode = MODE_OFF;
 uint8_t debounce;
 uint8_t rainbowOffset = 0;
